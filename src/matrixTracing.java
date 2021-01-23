@@ -27,7 +27,7 @@ public class matrixTracing {
             result = result.multiply(BigInteger.valueOf(i%1000000007));
         }
 
-        return result;
+        return result.intValue();
     }
 
     
